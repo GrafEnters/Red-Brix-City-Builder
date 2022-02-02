@@ -59,6 +59,11 @@ public class GridManager : MonoBehaviour
 
     }
 
+    public Vector3 IslandSize()
+    {
+        return new Vector3(gridSize.x, 0, gridSize.y);
+    }
+
     //Изменяет размер острова соответственно размеру поля
     void GenerateIsland()
     {
